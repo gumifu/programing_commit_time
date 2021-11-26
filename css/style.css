@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.re_container {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date_cl{
+    margin: 20px;
+}
+/* legend{
+    margin: 10px;
+} */
+
+fieldset {
+    border: 3px solid blue;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.submit_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+legend {
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    margin: 10px;
+}
+button :hover{
+    background-color: gold;
+}
+
+button {
+    background-color: darkblue;
+    color: cornsilk;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+input, select {
+    font-size: 14px;
+    height: 30px;
+    color: blue;
+}
+
+canvas {
+    width: 600px;
+}
+
+.canvas_size {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(214, 212, 212);
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.sum_container {
+    background-color: rgb(214, 212, 212);
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#sum_sum_sum {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(216, 33, 1);
+    /* border-bottom: solid 8px rgb(216, 33, 1); */
+    /* border-right: double 10px rgb(216, 33, 1); */
+    margin: 10px;
+    width: 50%;
+}
+
+#average_commit_id {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    /* border-bottom: solid 8px blue; */
+    /* border-right: double 10px blue; */
+    margin: 10px;
+    width: 50%;
+}
